@@ -1,4 +1,4 @@
-local DevHub3 = loadstring(game:HttpGet('https://raw.githubusercontent.com/xoveracterx-droid/devhub/refs/heads/main/scripts'))()
+local DevHub3 = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = DevHub3:CreateWindow({
     Name = "Dev Hub",
