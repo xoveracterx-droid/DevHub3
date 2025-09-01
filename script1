@@ -1,7 +1,6 @@
-local DevHub3 = loadstring(game:HttpGet('https://raw.githubusercontent.com/xoveracterx-droid/DevHub3/refs/heads/main/script'))()
+local DevHub3 = loadstring(game:HttpGet(''))()
 
-
-local Window = DevHub:CreateWindow({
+local Window = DevHub3:CreateWindow({
     Name = "Dev Hub",
     Icon = 0,
     LoadingTitle = "Garden Pet Hub",
@@ -9,7 +8,7 @@ local Window = DevHub:CreateWindow({
     ShowText = "dev",
     Theme = "Default",
     ToggleUIKeybind = "K",
-    DisableDevHubPrompts = false,
+    DisableDevHub3Prompts = false,
     DisableBuildWarnings = false,
     ConfigurationSaving = {
         Enabled = true,
@@ -25,7 +24,7 @@ local player = game.Players.LocalPlayer
 local UIS = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
 
-DevHub:Notify({
+DevHub3:Notify({
     Title = "Success",
     Content = "Welcome, " .. player.Name,
     Duration = 5,
