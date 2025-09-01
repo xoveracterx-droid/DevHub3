@@ -1,3 +1,6 @@
+local DevHub3 = loadstring(game:HttpGet('https://raw.githubusercontent.com/xoveracterx-droid/DevHub3/refs/heads/main/script'))()
+
+
 local Window = DevHub:CreateWindow({
     Name = "Dev Hub",
     Icon = 0,
